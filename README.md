@@ -12,6 +12,25 @@ Each possible face candidates is normalized to reduce lightning effect caused du
 * [OpenCV][opencv] - OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. 
 * Python
 
+
+
+### Usage
+
+* You need to install OpenCV. Make sure you have the latest version of it. (I used OpenCV-3.1.0)
+    - Follow the steps in these links:
+        - [Link 1][1]
+        - [Link 2][2]
+
+**Face Detection**
+	- Download *facedetect.py* in your working directory.
+	- Open the file, and enter your image file's name (or the path to it if its not in your working directory)
+	- Run the command ```python facedetect.py``` on terminal and you will see a rectangle on the faces in the image in a new pop-up window.
+ 
+**Face Tracking**
+	- Download *facetracking.py* in your working directory.
+	- Open the file, and enter your video file's name (or the path to it if its not in your working directory)
+	- Run the command ```python facetracking.py``` on terminal and you will see a rectangle on the faces in the video in a new pop-up window.
+
 ### Acknowledgements
 
 * [Prof. G.S. Raghavan][profgsr] for guiding us and giving us an opportunity to learn a lot from such a project.
@@ -23,5 +42,7 @@ Want to contribute? Great!
 
    [wiki]: <https://en.wikipedia.org/wiki/Face_detection>
    [opencv]: <http://opencv.org/>
+   [1]: <http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html>
+   [2]: <http://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/>
    [poster]: <https://www.dropbox.com/s/1iul44nl4no9l4s/elab%20poster.pptx?dl=0>
    [profgsr]: <http://www.iiitb.ac.in/faculty_page.php?name=GSrinivasaraghavan>
